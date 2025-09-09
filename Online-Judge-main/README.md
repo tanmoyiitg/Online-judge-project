@@ -25,13 +25,8 @@ An advanced Online Judge Platform for coding practice sessions, designed to prov
 
 Follow these steps to run the project locally:
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/devendraswami103/Online-Judge.git
-   cd Online-Judge
-   ```
 
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    - Backend:
      ```bash
      cd server
@@ -42,11 +37,10 @@ Follow these steps to run the project locally:
      cd ../client
      npm install
      ```
-
-3. **Set Up Environment Variables**:
+2. **Set Up Environment Variables**:
    Create `.env` files for the backend and frontend with the necessary configurations. 
 
-4. **Run the Application**:
+3. **Run the Application**:
    - Start the backend server:
      ```bash
      cd server
@@ -89,7 +83,7 @@ Contributions are welcome! Please follow these steps:
 
 ## Contact
 
-For queries or support, reach out to **[Devendra Swami](mailto:devendraswami103@gmail.com)**.
+For queries or support, reach out to **[Tanmoy Sarkar](mailto:tanmoysarkar46552@gmail.com)**.
 
 ---
 
