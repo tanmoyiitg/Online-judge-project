@@ -1,0 +1,43 @@
+.popup {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  /* Green */
+  color: white;
+  padding: 16px;
+  border-radius: 4px;
+  animation: slideIn 0.5s, slideOut 0.5s 1.5s;
+  visibility: hidden;
+  /* Start hidden */
+}
+
+.popup.show {
+  visibility: visible;
+  /* Show when .show is added */
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -50px;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    bottom: 0;
+    opacity: 1;
+  }
+
+  to {
+    bottom: -50px;
+    opacity: 0;
+  }
+}
